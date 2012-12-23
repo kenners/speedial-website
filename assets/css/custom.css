@@ -1,0 +1,57 @@
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	background: url(../img/cream_dust_60_opacity.png) repeat 0 0;
+	padding: 20px 60px 20px 60px;
+	max-width: 700px;
+}
+.container-narrow > hr {
+	margin: 30px 0;
+	border:0;
+	border-top:1px solid #e0e0e0}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 60px 0;
+	text-align: center;
+	font-weight:900;
+}
+.jumbotron h1 {
+	font-size: 72px;
+	line-height: 1;
+	font-style: italic;
+}
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+	/*margin: 30px 0;*/
+}
+.marketing p + h4 {
+	margin-top: 28px;
+}
+
+.muted a {
+  color: #808080;
+  text-decoration: none;
+}
+
+.muted a:hover {
+  text-decoration: none;
+}
+
+p.lead {
+  margin-bottom: 40px;
+}
+
+/* Reduce h1 font-size on small screens */
+@media (max-width: 480px) { 
+  
+.jumbotron h1 { 
+  font-size: 40px;  
+}  
+
+}
